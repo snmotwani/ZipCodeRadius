@@ -1,0 +1,18 @@
+1. Create the Model
+
+2. Add the dependencies:
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+dotnet add package Swashbuckle.AspNetCore
+dotnet add package Swashbuckle.AspNetCore.Swagger
+dotnet add package Swashbuckle.AspNetCore.SwaggerGen
+dotnet add package Swashbuckle.AspNetCore.SwaggerUI
+
+dotnet add package csvHelper
+dotnet add package AutoMapper.Extensions.Microsoft.DepencyInjection
+
+dotnet new class -o Data -n PrepDb
+dotnet new class -o Data -n IZipCodeRepo
+dotnet new class -o Data -n ZipCodeRepo
